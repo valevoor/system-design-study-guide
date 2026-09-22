@@ -35,6 +35,10 @@ general instinct, **this file wins** for this project.
 5. **Accuracy.** These are stable CS fundamentals; keep product facts at the conceptual
    level and avoid volatile specifics (exact prices, version numbers). If unsure of a
    current fact, check rather than guess.
+6. **The AI-authorship disclosure lives once, in `README.md` only.** It says the guide
+   was created by AI and steered by a human. Don't delete it and don't propagate it into
+   individual chapter files — same reasoning as the no-footer rule in §4: one honest,
+   visible statement beats fifteen repeated ones.
 
 ---
 
@@ -261,6 +265,8 @@ When these are built, follow the same audience, tone, and FoodDash conventions a
 - ❌ Don't change FoodDash's platform-to-data mapping (§7) without updating it everywhere.
 - ❌ Don't add a footer ("Next: ...") line to a chapter — footers were removed on purpose
   (§4); navigation lives in `00`'s chapter map and the final chapter's cheat table instead.
+- ❌ Don't remove the AI-authorship disclosure from `README.md`, and don't copy it into
+  individual chapter files (see golden rule 6 in §2).
 - ❌ Don't force a grouped, multi-technique addition (like `04`) into a single-platform
   nine-section shape, and don't split a genuinely single-platform topic into the `04`-style
   lettered format just to avoid writing nine sections.

@@ -5,6 +5,9 @@
 > mobile, data. You know how to code (variables, APIs, HTTP, JSON), but you've never had
 > to reason about what happens when a system outgrows one machine. We build from there.
 
+> **A note on how this was made:** This guide was created by AI and steered by a human
+> throughout — drafted, reviewed, and edited for accuracy.
+
 ---
 
 ## 1. The mental model (read this first)
