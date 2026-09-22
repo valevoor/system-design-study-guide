@@ -120,7 +120,7 @@ Use these exact headings and intent. Each is `## §N — <heading>`.
 - **§7 — Factors to consider when designing with it** — what to reason about out loud.
 - **§8 — Avoiding overkill** — the restraint section; **must include a "Red flags that make
   interviewers wince 🚩" list.**
-- **§9 — Hello-world exercise (~30 min)** — a hands-on task (real, runnable code/commands),
+- **§9 — Hands-on exercise (~30 min)** — a real, runnable task (code/commands),
   ending with a **"You understand <platform> when you can:"** checklist.
 
 ---

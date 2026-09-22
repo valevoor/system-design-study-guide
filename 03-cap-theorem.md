@@ -273,7 +273,7 @@ during the partition.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** watch a CP node and an AP node behave differently during a simulated
 partition, in plain code.

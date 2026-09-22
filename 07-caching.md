@@ -261,7 +261,7 @@ treating the cache as durable storage.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** experience a hit vs miss and the speed difference, using Redis.
 

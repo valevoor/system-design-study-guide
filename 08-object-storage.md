@@ -224,7 +224,7 @@ a public bucket holding user data.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** create a bucket, upload a file, fetch it via a presigned URL.
 

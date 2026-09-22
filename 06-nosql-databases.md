@@ -265,7 +265,7 @@ naming the access pattern; using NoSQL for the money/transactions.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** feel the flexible, query-first, no-JOIN nature of a document store using MongoDB.
 

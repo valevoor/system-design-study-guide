@@ -206,7 +206,7 @@ strategy; ignoring cache-hit ratio.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** serve a file through a CDN and observe an edge cache hit.
 

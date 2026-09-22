@@ -260,7 +260,7 @@ in the database.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** create related tables, insert data, run a JOIN, and see a transaction — the core
 skills, on FoodDash's own data.

@@ -289,7 +289,7 @@ services; splitting services before domain boundaries are understood.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** feel the actual cost of splitting a function call into a network call.
 

@@ -289,7 +289,7 @@ which tier is slow; forgetting the LB needs its own redundancy.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** watch round-robin balancing *and* health-based failover with your own eyes,
 using NGINX in front of two tiny servers.

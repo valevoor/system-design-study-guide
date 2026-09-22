@@ -253,7 +253,7 @@ gigabytes; resume-driven Hadoop.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** run a real distributed-style aggregation with Spark — the map/shuffle/reduce model
 on FoodDash-shaped data — on your own machine.

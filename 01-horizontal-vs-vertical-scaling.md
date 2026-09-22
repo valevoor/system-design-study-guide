@@ -270,7 +270,7 @@ fleet.
 
 ---
 
-## §9 — Hello-world exercise (~20 min)
+## §9 — Hands-on exercise (~20 min)
 
 **Goal:** feel the difference between one worker and many, on your own laptop.
 

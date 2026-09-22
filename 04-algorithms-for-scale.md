@@ -245,7 +245,7 @@ predictable follow-up question).
 
 ---
 
-## Hello-world exercise (~30 min)
+## Hands-on exercise (~30 min)
 
 **Goal:** see a Bloom filter's false positives and consistent hashing's small-remap
 property with your own eyes.

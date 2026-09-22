@@ -55,7 +55,7 @@ every piece you learned along the way.
 | 6 | How it compares to other platforms | e.g. SQL vs NoSQL — which and when |
 | 7 | Factors to consider in a design | What to reason about out loud in the interview |
 | 8 | Avoiding overkill | Not reaching for a jackhammer to hang a picture |
-| 9 | Hello-world exercise | Get your hands dirty in ~30 minutes |
+| 9 | Hands-on exercise | Get your hands dirty in ~30 minutes |
 
 **Chapter 4 is the one exception** — it groups four specific algorithms and data
 structures (Bloom filters, HyperLogLog, Roaring Bitmaps, consistent hashing) rather than
@@ -81,7 +81,7 @@ maps loosely onto the same week — one technique every day or two):
 | **Tue** | §3 When not to use + §8 Avoiding overkill | The "no" cases are where interviews are won |
 | **Wed** | §4 Popular products + §5 Product comparison | Learn the vocabulary |
 | **Thu** | §6 Compare to other platforms + §7 Design factors | The heart of the interview |
-| **Fri** | §9 Hello-world exercise | Cement it with your hands |
+| **Fri** | §9 Hands-on exercise | Cement it with your hands |
 | **Sat** | Real-world use cases + interview questions | Apply it |
 | **Sun** | Rest / re-read your weakest section | Spaced repetition |
 

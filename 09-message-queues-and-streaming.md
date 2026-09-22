@@ -228,7 +228,7 @@ default; no idempotency story.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** produce and consume messages, and feel the async hand-off.
 

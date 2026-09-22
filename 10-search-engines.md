@@ -232,7 +232,7 @@ truth; no sync/consistency story.
 
 ---
 
-## §9 — Hello-world exercise (~30 min)
+## §9 — Hands-on exercise (~30 min)
 
 **Goal:** index documents and run a ranked, typo-tolerant search.
 
