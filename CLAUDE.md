@@ -42,7 +42,8 @@ general instinct, **this file wins** for this project.
 
 - One chapter per file, named `NN-topic.md` (zero-padded), e.g. `07-caching.md`.
 - Chapter order is deliberate and builds up FoodDash. Chapters 01–04 are foundational
-  concepts every later chapter assumes; 05–13 are platform chapters; 14 is the capstone.
+  concepts every later chapter assumes; 05–13 are platform chapters; 14 is the final,
+  synthesis chapter (Putting It All Together).
   Current set:
 
   | File | Chapter |
@@ -61,10 +62,11 @@ general instinct, **this file wins** for this project.
   | `11-load-balancers.md` | Load balancers |
   | `12-cdn.md` | CDN |
   | `13-data-processing.md` | Data processing (MapReduce & Spark) |
-  | `14-capstone.md` | Capstone (must always be the **last** chapter) |
+  | `14-putting-it-all-together.md` | Putting It All Together (must always be the **last** chapter) |
 
-- **The capstone stays last.** To insert a new chapter, place it before the capstone and
-  **renumber** everything after it so the capstone keeps the highest number (see §8).
+- **The final chapter stays last.** To insert a new chapter, place it before the final
+  chapter and **renumber** everything after it so the final chapter keeps the highest
+  number (see §8).
 
 ---
 
@@ -88,15 +90,16 @@ Every platform chapter follows this exact skeleton, in this order:
    sheets), and the chapter ends there.
 
 **No footer.** Chapters do not link to "the next file" — navigation is the chapter map in
-`README.md` §4 and the capstone's cheat table (§6 of `14-capstone.md`).
+`README.md` §4 and the final chapter's cheat table (§6 of `14-putting-it-all-together.md`).
 A footer was tried early on and dropped: it went stale every time a chapter was inserted or
 renumbered, so don't reintroduce one.
 
-Non-platform chapters differ: **`00` (curriculum)** and **`14` (capstone)** do NOT use the
-nine-section template — the capstone uses worked examples + the interview method; the
-curriculum uses framing/schedule/glossary. **`04` (algorithms for scale) is a partial
-exception** — it covers four techniques rather than one platform, so it uses a shorter,
-lettered format (§A–§D) instead of the nine numbered sections, while keeping the front-matter
+Non-platform chapters differ: **`00` (curriculum)** and **`14` (Putting It All Together)**
+do NOT use the nine-section template — Chapter 14 uses worked examples + the interview
+method; the curriculum uses framing/schedule/glossary. **`04` (algorithms for scale) is a
+partial exception** — it covers four techniques rather than one platform, so it uses a
+shorter, lettered format (§A–§D) instead of the nine numbered sections, while keeping the
+front-matter
 callout, real-world use cases, interview questions, and 60-second recap. `01`–`03` use the
 full nine-section template like any platform chapter. Don't force the strict nine-section
 template onto `00`, `04`, or `14`.
@@ -180,9 +183,9 @@ stay in sync:
   and every `` `NN-topic.md` `` filename reference, anywhere in any chapter.
 - **`README.md` §4** — the chapter-map table and its mermaid
   dependency diagram list every chapter by number and title.
-- **The capstone's `§6` cheat table and `§9` recap** — list every chapter's core
-  decision. **When you add or remove a chapter, update the capstone's cheat table, its
-  recap, and its intro's "Chapters 1–N" range.**
+- **The final chapter's `§6` cheat table and `§9` recap** — list every chapter's core
+  decision. **When you add or remove a chapter, update the final chapter's cheat table,
+  its recap, and its intro's "Chapters 1–N" range.**
 - **The H1 chapter number must always equal the filename number.** (This has bitten us —
   a rename without an H1 update leaves a "Chapter 9" titled file named `10-…`.)
 
@@ -190,15 +193,15 @@ stay in sync:
 1. Decide where it belongs pedagogically — don't just tack it onto the end to minimize
    changes. If it's foundational, it likely belongs early; if it's a specific platform,
    it belongs near the platforms it relates to.
-2. Rename every chapter from that slot onward (including the capstone) up by however many
+2. Rename every chapter from that slot onward (including the final chapter) up by however many
    slots you're inserting, **highest number first** to avoid collisions, and fix each
    renamed chapter's H1 to match its new filename number.
 3. Shift every in-chapter cross-reference (`Chapter N`, `Ch. N`, `` `NN-topic.md` ``)
    across every file by the same amount — a small script beats doing this by hand.
 4. Write the new chapter, following §4–§6 (or the `04`-style exception if it's a grouped
    set of techniques rather than one platform).
-5. Update `README.md` §4 (table + mermaid diagram) and the
-   capstone's cheat table, recap, and intro range to include the new chapter.
+5. Update `README.md` §4 (table + mermaid diagram) and the final chapter's cheat table,
+   recap, and intro range to include the new chapter.
 6. Run the QA checklist (§9).
 
 ---
@@ -253,11 +256,11 @@ When these are built, follow the same audience, tone, and FoodDash conventions a
 - ❌ Don't pad sections to hit a page count.
 - ❌ Don't add architectural components to examples without a stated requirement (it
   contradicts the guide's core lesson).
-- ❌ Don't let the capstone drift from the platform chapters (keep its tables in sync).
+- ❌ Don't let the final chapter drift from the platform chapters (keep its tables in sync).
 - ❌ Don't rename a chapter file without updating its H1 and all cross-references.
 - ❌ Don't change FoodDash's platform-to-data mapping (§7) without updating it everywhere.
 - ❌ Don't add a footer ("Next: ...") line to a chapter — footers were removed on purpose
-  (§4); navigation lives in `00`'s chapter map and the capstone's cheat table instead.
+  (§4); navigation lives in `00`'s chapter map and the final chapter's cheat table instead.
 - ❌ Don't force a grouped, multi-technique addition (like `04`) into a single-platform
   nine-section shape, and don't split a genuinely single-platform topic into the `04`-style
   lettered format just to avoid writing nine sections.

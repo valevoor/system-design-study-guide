@@ -1,4 +1,4 @@
-# Chapter 14 — Capstone: Putting It All Together
+# Chapter 14 — Putting It All Together
 
 > **This chapter is different.** There's no single new platform — instead we combine
 > everything from Chapters 1–13 into a repeatable **method** for the interview and walk it

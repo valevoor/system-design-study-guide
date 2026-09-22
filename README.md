@@ -31,7 +31,7 @@ Everything in this guide is an answer to some version of that question.
 **The running example: FoodDash.** Every chapter builds the same fictional app —
 FoodDash, a food-delivery service with restaurants, dishes, orders, drivers, and diners
 in cities like Bengaluru and London. Each chapter adds a piece to FoodDash's
-architecture, so by the capstone (chapter 14) you've assembled a full system out of
+architecture, so by Chapter 14 (Putting It All Together) you've assembled a full system out of
 every piece you learned along the way.
 
 ---
@@ -41,7 +41,7 @@ every piece you learned along the way.
 - **Chapters 1–4 are foundational concepts** (scaling, architecture, CAP theorem, and a
   toolkit of scale-focused algorithms) that later chapters assume you know.
 - **Chapters 5–13 are one chapter per platform** (relational databases, NoSQL, caches,
-  and so on), and **chapter 14 is the capstone.**
+  and so on), and **chapter 14 puts it all together.**
 - **No chapter is longer than ~12 pages.**
 - Chapters 1–3 and 5–13 are broken into **the same 9 sections**, each up to ~1 page:
 
@@ -114,7 +114,7 @@ graph TD
     D --> H
     E --> J[13. Data Processing]
     D --> J
-    F --> K[14. Capstone]
+    F --> K[14. Putting It All Together]
     G --> K
     H --> K
     J --> K
@@ -135,7 +135,7 @@ graph TD
 | 11 | Load balancers | ✅ Full chapter | "Spread traffic across many servers" |
 | 12 | CDN | ✅ Full chapter | "Serve content fast to users worldwide" |
 | 13 | Data processing (MapReduce & Spark) | ✅ Full chapter | "Crunch huge datasets / analytics / ETL / ML prep" |
-| 14 | Capstone: design a full system | ✅ Full chapter | Combines everything |
+| 14 | Putting It All Together: design a full system | ✅ Full chapter | Combines everything |
 
 *Companion materials still being built — per-chapter cheat sheets and a mock interview
 Q&A bank — will layer on top of these fourteen chapters without changing them.*
