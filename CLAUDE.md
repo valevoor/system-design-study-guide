@@ -47,7 +47,7 @@ general instinct, **this file wins** for this project.
 
   | File | Chapter |
   |---|---|
-  | `00-curriculum-and-how-to-use.md` | Curriculum & how to use |
+  | `README.md` | Curriculum & how to use |
   | `01-horizontal-vs-vertical-scaling.md` | Horizontal vs. vertical scaling |
   | `02-monolith-vs-microservices.md` | Monolith vs. microservices |
   | `03-cap-theorem.md` | The CAP theorem |
@@ -88,7 +88,7 @@ Every platform chapter follows this exact skeleton, in this order:
    sheets), and the chapter ends there.
 
 **No footer.** Chapters do not link to "the next file" — navigation is the chapter map in
-`00-curriculum-and-how-to-use.md` §4 and the capstone's cheat table (§6 of `14-capstone.md`).
+`README.md` §4 and the capstone's cheat table (§6 of `14-capstone.md`).
 A footer was tried early on and dropped: it went stale every time a chapter was inserted or
 renumbered, so don't reintroduce one.
 
@@ -178,7 +178,7 @@ stay in sync:
 
 - **In-chapter cross-references** — every `Chapter N` / `Chapters N–M` / `Ch. N` mention
   and every `` `NN-topic.md` `` filename reference, anywhere in any chapter.
-- **`00-curriculum-and-how-to-use.md` §4** — the chapter-map table and its mermaid
+- **`README.md` §4** — the chapter-map table and its mermaid
   dependency diagram list every chapter by number and title.
 - **The capstone's `§6` cheat table and `§9` recap** — list every chapter's core
   decision. **When you add or remove a chapter, update the capstone's cheat table, its
@@ -197,7 +197,7 @@ stay in sync:
    across every file by the same amount — a small script beats doing this by hand.
 4. Write the new chapter, following §4–§6 (or the `04`-style exception if it's a grouped
    set of techniques rather than one platform).
-5. Update `00-curriculum-and-how-to-use.md` §4 (table + mermaid diagram) and the
+5. Update `README.md` §4 (table + mermaid diagram) and the
    capstone's cheat table, recap, and intro range to include the new chapter.
 6. Run the QA checklist (§9).
 
