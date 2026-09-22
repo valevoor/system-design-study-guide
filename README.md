@@ -8,6 +8,9 @@
 > **A note on how this was made:** This guide was created by AI and steered by a human
 > throughout — drafted, reviewed, and edited for accuracy.
 
+> **Draft:** This guide is a work in progress and hasn't been fully reviewed for
+> accuracy yet. Content may change; double-check anything you rely on for an interview.
+
 ---
 
 ## 1. The mental model (read this first)
